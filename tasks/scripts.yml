@@ -5,4 +5,4 @@ pipeline:
   coffee:
     bare: true # don't wrap each file into scope function
   concat:
-    boilerplate-app.js
+    boilerplate-scripts.js

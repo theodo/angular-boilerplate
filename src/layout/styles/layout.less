@@ -1,0 +1,26 @@
+body {
+  background-image: url('../images/subtle-dots-background.png');
+  background-repeat: repeat;
+}
+
+.layout-header {
+  height: 55px;
+}
+
+.layout-container {
+  .container();
+  min-width: @screen-xs-min;
+  .layout-page {
+    .make-row();
+    background-image: url('../images/black-transparent-background.png');
+    border-radius: @border-radius-large;
+    color: white;
+    h1 {
+      text-align: center;
+    }
+  }
+}
+
+.layout-footer {
+  height: 55px;
+}

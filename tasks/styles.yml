@@ -1,5 +1,7 @@
-src: src/app.less
+src: src/main.less
 dest: www/css/
 
 pipeline:
   less:
+  concat:
+    boilerplate-styles.css
