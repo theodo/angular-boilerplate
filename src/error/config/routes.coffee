@@ -1,7 +1,7 @@
 angular.module 'boilerplate.error'
 .config ($stateProvider, $urlRouterProvider) ->
   $stateProvider
-  .state 'error',
+  .state 'layout.error',
     url: '/error'
     templateUrl: 'error/views/view.html'
 

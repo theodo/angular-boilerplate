@@ -4,7 +4,6 @@ angular.module 'boilerplate', [
   'ng'
   'pascalprecht.translate'
   'boilerplate.templates'
-  'boilerplate.layout'
   'boilerplate.error'
 ]
 
